@@ -16,7 +16,7 @@ body {
     #4cb8c4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
-  font-family: "Lora", 'Times New Roman', Times, serif;
+  font-family: "Lora", "Times New Roman", Times, serif;
 }
 button:focus {
   outline: none;
@@ -38,12 +38,17 @@ form {
 .paper {
   background: white;
   border-radius: 15px;
-  max-width: 50vw;
   margin: auto;
   min-height: 75vh;
   margin-bottom: 10vh;
   border: solid #9c9c9c 1px;
   padding-bottom: 3%;
+  max-width: 50vw;
+}
+@media only screen and (max-width: 900px) {
+  .papar {
+    max-width: 90vw;
+  }
 }
 
 form input {
@@ -56,8 +61,7 @@ form input {
   border-radius: 10px;
   margin-right: -2rem;
   border: solid #9c9c9c 1px;
-  font-family: "Lora", 'Times New Roman', Times, serif;
-
+  font-family: "Lora", "Times New Roman", Times, serif;
 }
 
 form button {
@@ -149,4 +153,3 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
