@@ -45,8 +45,8 @@ form {
   padding-bottom: 3%;
   max-width: 50vw;
 }
-@media only screen and (max-width: 900px) {
-  .papar {
+@media only screen and (max-width: 1500px) {
+  .paper {
     max-width: 90vw;
   }
 }
