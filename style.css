@@ -43,12 +43,11 @@ form {
   margin-bottom: 10vh;
   border: solid #9c9c9c 1px;
   padding-bottom: 3%;
-  width: clamp(50ch, 50%, 100ch);
+  max-width: 900px;
 }
 
 form input {
   color: rgb(66, 66, 66);
-  width: 47vh;
   padding: 0.5rem;
   font-size: 1.4rem;
   background: white;
@@ -57,16 +56,19 @@ form input {
   margin-right: -2rem;
   border: solid #9c9c9c 1px;
   font-family: "Lora", "Times New Roman", Times, serif;
+  width: 50%;
 }
 
 form button {
   background: #4cb8c4;
   color: white;
   border: none;
-  padding: 0.95rem;
+  padding: 0.5rem;
+  font-size: 1.6rem;
   border-radius: 10px;
   cursor: pointer;
   border: solid #9c9c9c 1px;
+  
 }
 form button:hover {
   background: #57d1df;
