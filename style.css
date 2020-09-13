@@ -56,7 +56,8 @@ form input {
   margin-right: -2rem;
   border: solid #9c9c9c 1px;
   font-family: "Lora", "Times New Roman", Times, serif;
-  width: 50%;
+  width: 95%;
+  max-width: 500px;
 }
 
 form button {
