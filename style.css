@@ -43,7 +43,7 @@ form {
   margin-bottom: 10vh;
   border: solid #9c9c9c 1px;
   padding-bottom: 3%;
-  max-width: 95vh;
+  width: clamp(50ch, 50%, 100ch);
 }
 
 form input {
@@ -87,7 +87,7 @@ form button:hover {
   color: rgb(66, 66, 66);
   font-size: 1.7rem;
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
   align-items: center;
   border-bottom: solid #dddddd 1px;
 }
