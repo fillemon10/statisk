@@ -19,7 +19,6 @@ body {
   font-family: "Epilogue", Arial, Helvetica, sans-serif;
 }
 h1 {
-  font-size: 4.5rem;
   margin: 3rem 0;
 }
 button:focus {
@@ -48,7 +47,9 @@ form {
   padding-bottom: 3%;
   max-width: 900px;
 }
-
+form {
+  min-height: 6rem;
+}
 form input {
   color: rgb(32, 32, 32);
   padding: 0.8rem;
@@ -74,12 +75,10 @@ form button {
   border: none;
   padding: 0.8rem;
   border-radius: 10px;
-  margin: 5px;
   font-size: 1.5rem;
   cursor: pointer;
   width: 3rem;
   height: 3rem;
-
   font-family: "Epilogue", Arial, Helvetica, sans-serif;
 }
 form button:hover {
@@ -92,7 +91,8 @@ form button:hover {
   align-items: center;
 }
 .todo-list {
-  min-width: 90%;
+  width: 100%;
+  max-width: 800px;
   list-style: none;
 }
 .todo {
