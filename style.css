@@ -49,6 +49,7 @@ form {
 }
 form {
   min-height: 6rem;
+  margin: 0;
 }
 form input {
   color: rgb(32, 32, 32);
@@ -63,6 +64,7 @@ form input {
   width: 95%;
   max-width: 500px;
   border: none;
+  margin-top: 3rem;
 }
 form i {
   position: relative;
@@ -80,6 +82,8 @@ form button {
   width: 3rem;
   height: 3rem;
   font-family: "Epilogue", Arial, Helvetica, sans-serif;
+  margin-top: 3rem;
+
 }
 form button:hover {
   background: #57d1df;
@@ -89,10 +93,12 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 .todo-list {
   width: 100%;
-  max-width: 800px;
+  max-width: 812px;
+  margin: 0;
   list-style: none;
 }
 .todo {
@@ -149,11 +155,10 @@ form button:hover {
 .fa-trash,
 .fa-check {
   pointer-events: none;
-}
-.fa-trash {
   position: relative;
   top: 1px;
 }
+
 .completed {
   text-decoration: line-through;
 }
